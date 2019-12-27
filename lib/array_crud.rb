@@ -35,6 +35,6 @@ array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-  array.push(index_number, element)
+  array.insert(index_number, element)
   return array[index_number]
 end
